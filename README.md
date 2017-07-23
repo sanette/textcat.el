@@ -1,6 +1,8 @@
 # textcat.el
 emacs mode for libtextcat - automatic language recognition
 
+(directly adapted from http://os.inf.tu-dresden.de/~mp26/emacs.shtml)
+
 When calling ```'textcat-change-ispell-dictionary```
 the language of the buffer will be automatically detected (by statistics) and the correct ispell/flyspell dictionary will be selected.
 
